@@ -1,16 +1,14 @@
 import React from "react";
 import Profile from "../Content/img/profile.png";
+//import Btn1 from "../button"
 //import InstagramLogo from "../Footer/img/instagram.png"
-//import WhatsAppLogo from "../Footer/img/whatsapp.png"
+import WhatsAppLogo from "../Footer/img/whatsapp.png"
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
-
-
+//import { render } from "preact";
 
 
 /*const feed =
-
-
 [{
 
       'username': '@craocarioca',
@@ -30,19 +28,22 @@ import 'react-ig-feed/dist/index.css'
       'on_error': console.error
   }
 ];
-
-
-const whatsappButton = [{
-
-  'actionButton': '',
-  'containerButton': document.getElementById("container-button"),
-
-}]
-
-console.log(whatsappButton[0].containerButton);
-
 */
+/*const btn1 = document.querySelector(".btn1");
+
+function Btn1(){
+
+btn1.addEventListener("click", () => {
+  window.open(
+    `https://api.whatsapp.com/send?phone=5521971025148&text=Olá! Acessei sua página pelo seu site card site! Quero mais informações sobre seu serviço.`
+  );
+});
+};*/
 //Meu token: IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD
+
+
+
+
 const Content = () => (
   
   <div className="container">
@@ -65,20 +66,19 @@ const Content = () => (
                                           />
                                       </div>
                                           <h1 className="text-center">O Carioca Web Design</h1>
-                                          
+
+                                          <p className="text-center">Desenvolvimento de sites</p>
                                           <div id="container-instagram-feed">
                                           <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD'}  counter="6"/>
                                           </div>
+                                          <a className="pullright" href="https://wa.me/5521971025148" target="_blank" rel="noreferrer"><img src={WhatsAppLogo} alt="Whatsapp"  /></a>
+
                           </div>
 
                       </div>
                   </div>
               </section>
-                  <div id="container-button">
-                  <button id="btn1" className="btn btn-danger">Clique</button>
-                  </div>
-
-
+                 
           </div>
       </div>
     </section>
