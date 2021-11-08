@@ -188,16 +188,15 @@ margin-left: 1rem;
 /*Instagram widget*/
 
 #container-instagram-feed{
+ 
   width: 100%;
-  padding:2rem;
-
-  
+  opacity: 0.8;
 }
 
 #container-instagram-feed img{
 
 
-  border:#FAFAFA 2px solid;
+  border:#FAFAFA 1px solid;
   border-radius: 2px;
  
 }
