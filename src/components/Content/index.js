@@ -34,6 +34,9 @@ const Content = () => (
                                           <p className="text-center">Desenvolvedor de Web sites Front-End | HTML5 / CSS3 / Bootstrap / Javascript / Wordpress. </p>
                                           <div id="container-instagram-feed">
                                           <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD'}  counter="12"/>
+                                          <br/>
+                                          <strong>(21) 971025148 </strong>
+                            
                                           </div>
                                           
 
