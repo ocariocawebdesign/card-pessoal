@@ -5,6 +5,7 @@ import Profile from "../Content/img/profile.png";
 import WhatsAppLogo from "../Footer/img/whatsapp.png"
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
+import Posts from "../Posts";
 //import { render } from "preact";
 
 
@@ -40,7 +41,8 @@ btn1.addEventListener("click", () => {
 });
 };*/
 //Meu token: IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD
-
+// Consulta via Fetch no Wordpress
+//async / await
 
 
 
@@ -66,12 +68,13 @@ const Content = () => (
                                           />
                                       </div>
                                           <h1 className="text-center">O Carioca Web Design</h1>
-
-                                          <p className="text-center">Desenvolvimento de sites</p>
+                                          <p className="text-center">Desenvolvedor de Web sites Front-End | HTML5 / CSS3 / Bootstrap / Javascript / Wordpress. </p>
                                           <div id="container-instagram-feed">
-                                          <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD'}  counter="6"/>
+                                          <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD'}  counter="12"/>
                                           </div>
-                                          <a className="pullright" href="https://wa.me/5521971025148" target="_blank" rel="noreferrer"><img src={WhatsAppLogo} alt="Whatsapp"  /></a>
+                                          {/*<a className="pullright" href="https://wa.me/5521971025148" target="_blank" rel="noreferrer"><img src={WhatsAppLogo} alt="Whatsapp"  /></a>*/}
+                                          {/*Aqui estou puxando os posts da pasta Posts do arquivo*/}
+                                          <Posts/>
 
                           </div>
 
