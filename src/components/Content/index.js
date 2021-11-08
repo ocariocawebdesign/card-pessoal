@@ -2,48 +2,11 @@ import React from "react";
 import Profile from "../Content/img/profile.png";
 //import Btn1 from "../button"
 //import InstagramLogo from "../Footer/img/instagram.png"
-import WhatsAppLogo from "../Footer/img/whatsapp.png"
+//import WhatsAppLogo from "../Footer/img/whatsapp.png"
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
-import Posts from "../Posts";
+//import Posts from "../Posts";
 //import { render } from "preact";
-
-
-/*const feed =
-[{
-
-      'username': '@craocarioca',
-      'container': document.getElementById("instagram-feed1"),
-      'token': 'IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD',
-      'display_profile': true,
-      'display_biography': true,
-      'display_gallery': true,
-      'display_captions': true,
-      'max_tries': 8,
-      'callback': null,
-      'styling': true,
-      'items': 8,
-      'items_per_row': 4,
-      'margin': 1,
-      'lazy_load': true,
-      'on_error': console.error
-  }
-];
-*/
-/*const btn1 = document.querySelector(".btn1");
-
-function Btn1(){
-
-btn1.addEventListener("click", () => {
-  window.open(
-    `https://api.whatsapp.com/send?phone=5521971025148&text=Olá! Acessei sua página pelo seu site card site! Quero mais informações sobre seu serviço.`
-  );
-});
-};*/
-//Meu token: IGQVJYUGZAnQTIzOFc1WC1ubDB5aGNoYldlRGFxUEVJYkVScHdSNzdqOVg0bmRudlh4bWh2dWloM2RXcDNMTkloS0hMSnZAmZAm5lOHFqTVFZAbDAtM3N3RmdXWWp4QjM1ZAmVUY0J1aE1jeUk0dG1tTHpwRAZDZD
-// Consulta via Fetch no Wordpress
-//async / await
-
 
 
 const Content = () => (
@@ -72,9 +35,7 @@ const Content = () => (
                                           <div id="container-instagram-feed">
                                           <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD'}  counter="12"/>
                                           </div>
-                                          {/*<a className="pullright" href="https://wa.me/5521971025148" target="_blank" rel="noreferrer"><img src={WhatsAppLogo} alt="Whatsapp"  /></a>*/}
-                                          {/*Aqui estou puxando os posts da pasta Posts do arquivo*/}
-                                          <Posts/>
+                                          
 
                           </div>
 

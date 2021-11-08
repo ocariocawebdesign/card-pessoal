@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/style.css';
 //import '../css/responsive.css';
-import { Helmet } from "react-helmet";
+//import { Helmet } from "react-helmet";
 
-class Application extends React.Component {
+/*class Application extends React.Component {
   render() {
     return (
       <div className="application">
@@ -21,7 +21,7 @@ class Application extends React.Component {
   }
 }
 
-
+*/
 const Home = () => (
 
   <>
