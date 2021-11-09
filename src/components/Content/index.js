@@ -1,12 +1,7 @@
 import React from "react";
 import Profile from "../Content/img/profile.png";
-//import Btn1 from "../button"
-//import InstagramLogo from "../Footer/img/instagram.png"
-//import WhatsAppLogo from "../Footer/img/whatsapp.png"
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
-//import Posts from "../Posts";
-//import { render } from "preact";
 import { DiscussionEmbed } from 'disqus-react';
 //https://www.npmjs.com/package/react-modal-video
 
