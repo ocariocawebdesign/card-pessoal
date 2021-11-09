@@ -7,6 +7,8 @@ import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 //import Posts from "../Posts";
 //import { render } from "preact";
+import { DiscussionEmbed } from 'disqus-react';
+//https://www.npmjs.com/package/react-modal-video
 
 
 const Content = () => (
@@ -35,7 +37,7 @@ const Content = () => (
                                           <div id="container-instagram-feed">
                                           <InstagramFeed className="col-xs-12 col-sm-12 instagram-imgs" token={'IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD'}  counter="12"/>
                                           <br/>
-                                          <strong>(21) 971025148 </strong>
+                                         
                             
                                           </div>
                                           
@@ -55,6 +57,23 @@ const Content = () => (
            
           </div>
         </div>
+      </section>
+      <section>
+      <div className="row">
+      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <DiscussionEmbed 
+        shortname='ocariocaweb'
+        config={
+          {
+              url: 'http://localhost:8000/',
+              identifier: 0,
+              title: 'comentarios com react',
+              language: 'pt_BR' //e.g. for Traditional Chinese (Taiwan)	
+          }
+      }
+  />
+  </div>
+  </div>
       </section>
     </main>
   </div>
