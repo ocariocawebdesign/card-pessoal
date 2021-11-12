@@ -51,7 +51,6 @@ const Content = () => (
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Blog/>
-              <div id="post" className=""></div>
             </div>
 
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
