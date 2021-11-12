@@ -1,3 +1,4 @@
+import React from 'react';
 
 
 async function fetchPposts(url) {
@@ -23,6 +24,7 @@ requisicao.then((response) => {
 
   console.log(dadosPost);
 
+
   document.querySelector(
     "#post1"
   ).innerHTML = ` <h1 class="text-center text-uppercase">${dadosPost.postTitle}</h1>
@@ -40,6 +42,9 @@ requisicao.then((response) => {
 
 `;
 });
+
+
+
 
 // Fim //
 
