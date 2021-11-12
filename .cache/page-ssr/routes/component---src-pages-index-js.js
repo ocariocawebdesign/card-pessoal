@@ -1,8 +1,11 @@
-exports.id = 678;
-exports.ids = [678];
+exports.id = "component---src-pages-index-js";
+exports.ids = ["component---src-pages-index-js"];
 exports.modules = {
 
-/***/ 2449:
+/***/ "./node_modules/disqus-react/lib/CommentCount.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/disqus-react/lib/CommentCount.js ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -13,13 +16,13 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.CommentCount = void 0;
 
-var _react = _interopRequireDefault(__webpack_require__(9609));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(5697));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var _utils = __webpack_require__(6674);
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/disqus-react/lib/utils.js");
 
-var _constants = __webpack_require__(7990);
+var _constants = __webpack_require__(/*! ./constants */ "./node_modules/disqus-react/lib/constants.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -142,7 +145,10 @@ CommentCount.propTypes = {
 
 /***/ }),
 
-/***/ 5890:
+/***/ "./node_modules/disqus-react/lib/CommentEmbed.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/disqus-react/lib/CommentEmbed.js ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -153,11 +159,11 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.CommentEmbed = void 0;
 
-var _react = _interopRequireDefault(__webpack_require__(9609));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(5697));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var _constants = __webpack_require__(7990);
+var _constants = __webpack_require__(/*! ./constants */ "./node_modules/disqus-react/lib/constants.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -253,7 +259,10 @@ CommentEmbed.propTypes = {
 
 /***/ }),
 
-/***/ 4811:
+/***/ "./node_modules/disqus-react/lib/DiscussionEmbed.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/disqus-react/lib/DiscussionEmbed.js ***!
+  \**********************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -264,13 +273,13 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.DiscussionEmbed = void 0;
 
-var _react = _interopRequireDefault(__webpack_require__(9609));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(5697));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var _utils = __webpack_require__(6674);
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/disqus-react/lib/utils.js");
 
-var _constants = __webpack_require__(7990);
+var _constants = __webpack_require__(/*! ./constants */ "./node_modules/disqus-react/lib/constants.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -438,7 +447,10 @@ DiscussionEmbed.propTypes = {
 
 /***/ }),
 
-/***/ 4573:
+/***/ "./node_modules/disqus-react/lib/Recommendations.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/disqus-react/lib/Recommendations.js ***!
+  \**********************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -449,13 +461,13 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.Recommendations = void 0;
 
-var _react = _interopRequireDefault(__webpack_require__(9609));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(5697));
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var _utils = __webpack_require__(6674);
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/disqus-react/lib/utils.js");
 
-var _constants = __webpack_require__(7990);
+var _constants = __webpack_require__(/*! ./constants */ "./node_modules/disqus-react/lib/constants.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -603,7 +615,10 @@ Recommendations.propTypes = {
 
 /***/ }),
 
-/***/ 7990:
+/***/ "./node_modules/disqus-react/lib/constants.js":
+/*!****************************************************!*\
+  !*** ./node_modules/disqus-react/lib/constants.js ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -634,49 +649,51 @@ exports.CALLBACKS = CALLBACKS;
 
 /***/ }),
 
-/***/ 3944:
+/***/ "./node_modules/disqus-react/lib/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/disqus-react/lib/index.js ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-var __webpack_unused_export__;
 
 
-__webpack_unused_export__ = ({
+Object.defineProperty(exports, "__esModule", ({
   value: true
-});
-__webpack_unused_export__ = ({
+}));
+Object.defineProperty(exports, "CommentCount", ({
   enumerable: true,
   get: function get() {
     return _CommentCount.CommentCount;
   }
-});
-__webpack_unused_export__ = ({
+}));
+Object.defineProperty(exports, "CommentEmbed", ({
   enumerable: true,
   get: function get() {
     return _CommentEmbed.CommentEmbed;
   }
-});
-Object.defineProperty(exports, "qw", ({
+}));
+Object.defineProperty(exports, "DiscussionEmbed", ({
   enumerable: true,
   get: function get() {
     return _DiscussionEmbed.DiscussionEmbed;
   }
 }));
-__webpack_unused_export__ = ({
+Object.defineProperty(exports, "Recommendations", ({
   enumerable: true,
   get: function get() {
     return _Recommendations.Recommendations;
   }
-});
-__webpack_unused_export__ = void 0;
+}));
+exports["default"] = void 0;
 
-var _CommentCount = __webpack_require__(2449);
+var _CommentCount = __webpack_require__(/*! ./CommentCount */ "./node_modules/disqus-react/lib/CommentCount.js");
 
-var _CommentEmbed = __webpack_require__(5890);
+var _CommentEmbed = __webpack_require__(/*! ./CommentEmbed */ "./node_modules/disqus-react/lib/CommentEmbed.js");
 
-var _DiscussionEmbed = __webpack_require__(4811);
+var _DiscussionEmbed = __webpack_require__(/*! ./DiscussionEmbed */ "./node_modules/disqus-react/lib/DiscussionEmbed.js");
 
-var _Recommendations = __webpack_require__(4573);
+var _Recommendations = __webpack_require__(/*! ./Recommendations */ "./node_modules/disqus-react/lib/Recommendations.js");
 
 var Disqus = {
   CommentCount: _CommentCount.CommentCount,
@@ -685,11 +702,14 @@ var Disqus = {
   Recommendations: _Recommendations.Recommendations
 };
 var _default = Disqus;
-__webpack_unused_export__ = _default;
+exports["default"] = _default;
 
 /***/ }),
 
-/***/ 6674:
+/***/ "./node_modules/disqus-react/lib/utils.js":
+/*!************************************************!*\
+  !*** ./node_modules/disqus-react/lib/utils.js ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -705,7 +725,7 @@ exports.debounce = debounce;
 exports.isReactElement = isReactElement;
 exports.shallowComparison = shallowComparison;
 
-var _react = _interopRequireDefault(__webpack_require__(9609));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -799,194 +819,243 @@ function shallowComparison(currentProps, nextProps) {
 
 /***/ }),
 
-/***/ 1005:
+/***/ "./src/components/Content/index.js":
+/*!*****************************************!*\
+  !*** ./src/components/Content/index.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Content_img_profile_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Content/img/profile.png */ "./src/components/Content/img/profile.png");
+/* harmony import */ var react_ig_feed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-ig-feed */ "./node_modules/react-ig-feed/dist/index.modern.js");
+/* harmony import */ var react_ig_feed_dist_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-ig-feed/dist/index.css */ "./node_modules/react-ig-feed/dist/index.css");
+/* harmony import */ var react_ig_feed_dist_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_ig_feed_dist_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var disqus_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! disqus-react */ "./node_modules/disqus-react/lib/index.js");
+/* harmony import */ var _Posts_index_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Posts/index.js */ "./src/components/Posts/index.js");
+/* harmony import */ var _Posts_index_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Posts_index_js__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+ //https://www.npmjs.com/package/react-modal-video
+
+const Content = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  id: "conteudo"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  id: "conteudo-1"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "block-1",
+  className: "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "box-1 box-content_primary_1 "
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "img-profile-center"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  className: "img-profile",
+  src: _Content_img_profile_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+  alt: "Foto perfil"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+  className: "text-center"
+}, "O Carioca Web Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "text-center"
+}, "Desenvolvedor de Web sites Front-End | HTML5 / CSS3 / Bootstrap / Javascript / Wordpress.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "container-instagram-feed"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_ig_feed__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  className: "col-xs-12 col-sm-12 instagram-imgs",
+  token: "IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD",
+  counter: "12"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  id: "conteudo-fotos"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(disqus_react__WEBPACK_IMPORTED_MODULE_4__.DiscussionEmbed, {
+  shortname: "ocariocaweb",
+  config: {
+    url: "http://localhost:8000/",
+    identifier: 0,
+    title: "comentarios com react",
+    language: "pt_BR" //e.g. for Traditional Chinese (Taiwan)
+
+  }
+})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  id: "postsContainer"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "post1",
+  className: ""
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "post2",
+  className: ""
+})))))));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Content);
+
+/***/ }),
+
+/***/ "./src/components/Footer/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Footer/index.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+ //import InstagramLogo from "../Footer/img/instagram.png"
+//import WhatsAppLogo from "../Footer/img/whatsapp.png"
+
+const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  className: "text-center"
+}, "Template Starter Gatsbyjs - Desenvolvido por Carlos Abreu - O Carioca Web - (21) 971025148 "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "box-footer-1"
+})))));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./src/components/Header/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Header/index.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_img_logo_teste_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header/img/logo-teste.png */ "./src/components/Header/img/logo-teste.png");
+/* harmony import */ var _Footer_img_instagram_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Footer/img/instagram.png */ "./src/components/Footer/img/instagram.png");
+/* harmony import */ var _Footer_img_whatsapp_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer/img/whatsapp.png */ "./src/components/Footer/img/whatsapp.png");
+
+
+
+
+
+const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  id: "box-header-2",
+  className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 "
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null))));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
+
+/***/ }),
+
+/***/ "./src/components/Posts/index.js":
+/*!***************************************!*\
+  !*** ./src/components/Posts/index.js ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-/* provided dependency */ var fetch = __webpack_require__(1515);
-async function fetchPposts(url){const response=await fetch(url);const jsonBody=await response.json();return jsonBody;}//https://mcagames.com.br/wp-json/wc/store/products
-const requisicao=fetchPposts("http://ocariocawebdesign-com-br.umbler.net/wordpress/wp-json/wp/v2/posts");requisicao.then(response=>{const dadosPost=new Array();dadosPost["postId"]=response[0].id;dadosPost["postTitle"]=response[0].title.rendered;dadosPost["postContent"]=response[0].content.rendered;dadosPost["ipostId2"]=response[1].id;dadosPost["postTitle2"]=response[1].title.rendered;dadosPost["postContent2"]=response[1].content.rendered;console.log(dadosPost);document.querySelector("#post1").innerHTML=` <h1 class="text-center text-uppercase">${dadosPost.postTitle}</h1>
+/* provided dependency */ var fetch = __webpack_require__(/*! ./node_modules/node-fetch/lib/index.js */ "./node_modules/node-fetch/lib/index.js");
+async function fetchPposts(url) {
+  const response = await fetch(url);
+  const jsonBody = await response.json();
+  return jsonBody;
+} //https://mcagames.com.br/wp-json/wc/store/products
+
+
+const requisicao = fetchPposts("http://ocariocawebdesign-com-br.umbler.net/wordpress/wp-json/wp/v2/posts");
+requisicao.then(response => {
+  const dadosPost = new Array();
+  dadosPost["postId"] = response[0].id;
+  dadosPost["postTitle"] = response[0].title.rendered;
+  dadosPost["postContent"] = response[0].content.rendered;
+  dadosPost["ipostId2"] = response[1].id;
+  dadosPost["postTitle2"] = response[1].title.rendered;
+  dadosPost["postContent2"] = response[1].content.rendered;
+  console.log(dadosPost);
+  document.querySelector("#post1").innerHTML = ` <h1 class="text-center text-uppercase">${dadosPost.postTitle}</h1>
                                                 <p>${dadosPost.postContent}</p>
   
      
                  
      
-                     `;document.querySelector("#post2").innerHTML=` <h1>${dadosPost.postTitle2}</h1>
+                     `;
+  document.querySelector("#post2").innerHTML = ` <h1>${dadosPost.postTitle2}</h1>
 <p>${dadosPost.postContent2}</p>
 
 
-`;});// Fim //
+`;
+}); // Fim //
 
 /***/ }),
 
-/***/ 7430:
+/***/ "./src/pages/index.js":
+/*!****************************!*\
+  !*** ./src/pages/index.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ pages)
-});
-
-// EXTERNAL MODULE: external "/home/producao/Documentos/card-pessoal/node_modules/react/index.js"
-var index_js_ = __webpack_require__(9609);
-var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// CONCATENATED MODULE: ./src/components/Header/img/logo-teste.png
-/* harmony default export */ const logo_teste = (__webpack_require__.p + "static/logo-teste-3f39351821a1b82289bca29fa2fc7dd9.png");
-;// CONCATENATED MODULE: ./src/components/Footer/img/instagram.png
-/* harmony default export */ const instagram = (__webpack_require__.p + "static/instagram-c3d0679865f6768b8afcbb34a893ba1e.png");
-;// CONCATENATED MODULE: ./src/components/Footer/img/whatsapp.png
-/* harmony default export */ const whatsapp = (__webpack_require__.p + "static/whatsapp-464a9a91419d3ccaa35665ff6ad41d7d.png");
-;// CONCATENATED MODULE: ./src/components/Header/index.js
-const Header=()=>/*#__PURE__*/index_js_default().createElement("header",null,/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-6 col-lg-6"}),/*#__PURE__*/index_js_default().createElement("div",{id:"box-header-2",className:"col-xs-12 col-sm-12 col-md-6 col-lg-6 "}),/*#__PURE__*/index_js_default().createElement("div",null))));/* harmony default export */ const components_Header = (Header);
-;// CONCATENATED MODULE: ./src/components/Content/img/profile.png
-/* harmony default export */ const profile = (__webpack_require__.p + "static/profile-c470b452bc742342a7edf8690d187347.png");
-;// CONCATENATED MODULE: ./node_modules/react-ig-feed/dist/index.modern.js
-/* provided dependency */ var fetch = __webpack_require__(1515);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header/index.js");
+/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content/index.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer/index.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/style.css */ "./src/css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_5__);
 
 
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
 
-  _setPrototypeOf(subClass, superClass);
-}
 
-function _setPrototypeOf(o, p) {
-  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
 
-  return _setPrototypeOf(o, p);
-}
-
-var styles = {"instagramItems":"_2R-kh","instagramItem":"_wPDyp","instagramImg":"_vzTHL","instagramIcon":"_3xnQP","errorMessage":"_3lhLL"};
-
-var InstagramFeed = /*#__PURE__*/function (_Component) {
-  _inheritsLoose(InstagramFeed, _Component);
-
-  function InstagramFeed(props) {
-    var _this;
-
-    _this = _Component.call(this, props) || this;
-    _this.state = {
-      feeds: [],
-      isError: '',
-      isLoaded: false
-    };
-    return _this;
-  }
-
-  var _proto = InstagramFeed.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    var _this2 = this;
-
-    var url = "https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url&&access_token=" + this.props.token;
-    fetch(url).then(function (response) {
-      return response.json();
-    }).then(function (data) {
-      if (data.hasOwnProperty('error')) {
-        _this2.setState({
-          isLoaded: true,
-          isError: true
-        });
-      } else {
-        _this2.setState({
-          isLoaded: true,
-          feeds: data.data,
-          isError: false
-        });
-      }
-    })["catch"](function (error) {
-      console.error('Error:', error);
-
-      _this2.setState({
-        isLoaded: true,
-        isError: true,
-        error: error
-      });
-    });
-  };
-
-  _proto.render = function render() {
-    var _this$state = this.state,
-        isError = _this$state.isError,
-        isLoaded = _this$state.isLoaded,
-        feeds = _this$state.feeds;
-
-    if (isError) {
-      return /*#__PURE__*/index_js_default().createElement("div", {
-        className: styles.errorMessage
-      }, /*#__PURE__*/index_js_default().createElement("p", null, " the access token is not valid"));
-    } else if (!isLoaded) {
-      return /*#__PURE__*/index_js_default().createElement("div", null, " Loading... ");
-    } else {
-      console.log(feeds);
-      return /*#__PURE__*/index_js_default().createElement("div", {
-        className: styles.instagramItems
-      }, feeds.slice(0, this.props.counter).map(function (feed, index) {
-        return /*#__PURE__*/index_js_default().createElement("div", {
-          key: index,
-          className: styles.instagramItem
-        }, /*#__PURE__*/index_js_default().createElement("a", {
-          key: index,
-          href: feed.permalink,
-          className: "ig-instagram-link",
-          target: "_blank",
-          rel: "noreferrer"
-        }, feed.media_type === 'IMAGE' || feed.media_type === 'CAROUSEL_ALBUM' ? /*#__PURE__*/index_js_default().createElement("img", {
-          className: styles.instagramImg,
-          key: index,
-          src: feed.media_url,
-          alt: "description"
-        }) : /*#__PURE__*/index_js_default().createElement("video", {
-          className: styles.instagramImg,
-          key: index,
-          src: feed.media_url,
-          type: "video/mp4"
-        }), /*#__PURE__*/index_js_default().createElement("div", {
-          className: styles.instagramIcon
-        }, /*#__PURE__*/index_js_default().createElement("div", {
-          className: "instagram-count-item"
-        }, /*#__PURE__*/index_js_default().createElement("span", {
-          className: "icon"
-        }, /*#__PURE__*/index_js_default().createElement("svg", {
-          height: "18",
-          viewBox: "0 0 512 512",
-          width: "18"
-        }, /*#__PURE__*/index_js_default().createElement("path", {
-          fill: "currentColor",
-          d: "m256 386c-71.683 0-130-58.317-130-130 7.14-172.463 252.886-172.413 260 .001 0 71.682-58.317 129.999-130 129.999zm0-220c-49.626 0-90 40.374-90 90 4.944 119.397 175.074 119.362 180-.001 0-49.625-40.374-89.999-90-89.999zm236 346h-472c-11.046 0-20-8.954-20-20v-472c0-11.046 8.954-20 20-20h472c11.046 0 20 8.954 20 20v472c0 11.046-8.954 20-20 20zm-452-40h432v-432h-432zm372-392c-11.046 0-20 8.954-20 20 0 11.046 8.954 20 20 20 11.046 0 20-8.954 20-20 0-11.046-8.954-20-20-20z"
-        })))))));
-      }));
-    }
-  };
-
-  return InstagramFeed;
-}(index_js_.Component);
-
-/* harmony default export */ const index_modern = (InstagramFeed);
-//# sourceMappingURL=index.modern.js.map
-
-// EXTERNAL MODULE: ./node_modules/disqus-react/lib/index.js
-var lib = __webpack_require__(3944);
-// EXTERNAL MODULE: ./src/components/Posts/index.js
-var Posts = __webpack_require__(1005);
-;// CONCATENATED MODULE: ./src/components/Content/index.js
-//https://www.npmjs.com/package/react-modal-video
-const Content=()=>/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("main",null,/*#__PURE__*/index_js_default().createElement("section",{id:"conteudo"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-12 col-lg-12"},/*#__PURE__*/index_js_default().createElement("section",{id:"conteudo-1"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{id:"block-1",className:"col-xs-12 col-sm-12 col-md-12 col-lg-12"},/*#__PURE__*/index_js_default().createElement("div",{className:"box-1 box-content_primary_1 "},/*#__PURE__*/index_js_default().createElement("div",{className:"img-profile-center"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-profile",src:profile,alt:"Foto perfil"})),/*#__PURE__*/index_js_default().createElement("h1",{className:"text-center"},"O Carioca Web Design"),/*#__PURE__*/index_js_default().createElement("p",{className:"text-center"},"Desenvolvedor de Web sites Front-End | HTML5 / CSS3 / Bootstrap / Javascript / Wordpress."," "),/*#__PURE__*/index_js_default().createElement("div",{id:"container-instagram-feed"},/*#__PURE__*/index_js_default().createElement(index_modern,{className:"col-xs-12 col-sm-12 instagram-imgs",token:"IGQVJVb3BQanBHMGlxT3V0b2xhNzFSNVFKQThEa2JUSU15TzhKYzJ0Yy1oTlZARM2VyM0NyelY2UFBnbU9mSlhMeVNkYk1NVlJBTUJHTWE2MUFCMmt1NGZAFS2l4bEFOZAW15UU1yU1ZAJU25tNFNUX0psbgZDZD",counter:"12"}),/*#__PURE__*/index_js_default().createElement("br",null))))))))),/*#__PURE__*/index_js_default().createElement("section",{id:"conteudo-fotos"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"}))),/*#__PURE__*/index_js_default().createElement("section",null,/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-12 col-lg-12"},/*#__PURE__*/index_js_default().createElement(lib/* DiscussionEmbed */.qw,{shortname:"ocariocaweb",config:{url:"http://localhost:8000/",identifier:0,title:"comentarios com react",language:"pt_BR"//e.g. for Traditional Chinese (Taiwan)
-}})))),/*#__PURE__*/index_js_default().createElement("section",{id:"postsContainer"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-6 col-lg-6"},/*#__PURE__*/index_js_default().createElement("div",{id:"post1",className:""})),/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-6 col-lg-6"},/*#__PURE__*/index_js_default().createElement("div",{id:"post2",className:""})))))));/* harmony default export */ const components_Content = (Content);
-;// CONCATENATED MODULE: ./src/components/Footer/index.js
-//import InstagramLogo from "../Footer/img/instagram.png"
-//import WhatsAppLogo from "../Footer/img/whatsapp.png"
-const Footer=()=>/*#__PURE__*/index_js_default().createElement("footer",null,/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xs-12 col-sm-12 col-md-12 col-lg-12"},/*#__PURE__*/index_js_default().createElement("p",{className:"text-center"},"Template Starter Gatsbyjs - Desenvolvido por Carlos Abreu - O Carioca Web - (21) 971025148 "),/*#__PURE__*/index_js_default().createElement("div",{id:"box-footer-1"})))));/* harmony default export */ const components_Footer = (Footer);
-;// CONCATENATED MODULE: ./src/pages/index.js
-//import '../css/responsive.css';
+ //import '../css/responsive.css';
 //import { Helmet } from "react-helmet";
+
 /*class Application extends React.Component {
   render() {
     return (
@@ -1001,11 +1070,18 @@ const Footer=()=>/*#__PURE__*/index_js_default().createElement("footer",null,/*#
   }
 }
 
-*/const Home=()=>/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(components_Header,null),/*#__PURE__*/index_js_default().createElement(components_Content,null),/*#__PURE__*/index_js_default().createElement(components_Footer,null));/* harmony default export */ const pages = (Home);
+*/
+
+const Home = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Content__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
 /***/ }),
 
-/***/ 1515:
+/***/ "./node_modules/node-fetch/lib/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/node-fetch/lib/index.js ***!
+  \**********************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1015,12 +1091,12 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var Stream = _interopDefault(__webpack_require__(8311));
-var http = _interopDefault(__webpack_require__(398));
-var Url = _interopDefault(__webpack_require__(4269));
-var whatwgUrl = _interopDefault(__webpack_require__(7347));
-var https = _interopDefault(__webpack_require__(3370));
-var zlib = _interopDefault(__webpack_require__(8884));
+var Stream = _interopDefault(__webpack_require__(/*! stream */ "stream"));
+var http = _interopDefault(__webpack_require__(/*! http */ "http"));
+var Url = _interopDefault(__webpack_require__(/*! url */ "url"));
+var whatwgUrl = _interopDefault(__webpack_require__(/*! whatwg-url */ "./node_modules/whatwg-url/lib/public-api.js"));
+var https = _interopDefault(__webpack_require__(/*! https */ "https"));
+var zlib = _interopDefault(__webpack_require__(/*! zlib */ "zlib"));
 
 // Based on https://github.com/tmpvar/jsdom/blob/aa85b2abf07766ff7bf5c1f6daafb3726f2f2db5/lib/jsdom/living/blob.js
 
@@ -1171,7 +1247,7 @@ FetchError.prototype.name = 'FetchError';
 
 let convert;
 try {
-	convert = (__webpack_require__(3392)/* .convert */ .O);
+	convert = (__webpack_require__(/*! encoding */ "../../node_modules/encoding/lib/encoding.js").convert);
 } catch (e) {}
 
 const INTERNALS = Symbol('Body internals');
@@ -2684,14 +2760,191 @@ exports.FetchError = FetchError;
 
 /***/ }),
 
-/***/ 4742:
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
+  \***********************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-ig-feed/dist/index.css":
+/*!***************************************************!*\
+  !*** ./node_modules/react-ig-feed/dist/index.css ***!
+  \***************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/css/style.css":
+/*!***************************!*\
+  !*** ./src/css/style.css ***!
+  \***************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-ig-feed/dist/index.modern.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-ig-feed/dist/index.modern.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* provided dependency */ var fetch = __webpack_require__(/*! ./node_modules/node-fetch/lib/index.js */ "./node_modules/node-fetch/lib/index.js");
+
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+
+  _setPrototypeOf(subClass, superClass);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+var styles = {"instagramItems":"_2R-kh","instagramItem":"_wPDyp","instagramImg":"_vzTHL","instagramIcon":"_3xnQP","errorMessage":"_3lhLL"};
+
+var InstagramFeed = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(InstagramFeed, _Component);
+
+  function InstagramFeed(props) {
+    var _this;
+
+    _this = _Component.call(this, props) || this;
+    _this.state = {
+      feeds: [],
+      isError: '',
+      isLoaded: false
+    };
+    return _this;
+  }
+
+  var _proto = InstagramFeed.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    var _this2 = this;
+
+    var url = "https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url&&access_token=" + this.props.token;
+    fetch(url).then(function (response) {
+      return response.json();
+    }).then(function (data) {
+      if (data.hasOwnProperty('error')) {
+        _this2.setState({
+          isLoaded: true,
+          isError: true
+        });
+      } else {
+        _this2.setState({
+          isLoaded: true,
+          feeds: data.data,
+          isError: false
+        });
+      }
+    })["catch"](function (error) {
+      console.error('Error:', error);
+
+      _this2.setState({
+        isLoaded: true,
+        isError: true,
+        error: error
+      });
+    });
+  };
+
+  _proto.render = function render() {
+    var _this$state = this.state,
+        isError = _this$state.isError,
+        isLoaded = _this$state.isLoaded,
+        feeds = _this$state.feeds;
+
+    if (isError) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: styles.errorMessage
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, " the access token is not valid"));
+    } else if (!isLoaded) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, " Loading... ");
+    } else {
+      console.log(feeds);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: styles.instagramItems
+      }, feeds.slice(0, this.props.counter).map(function (feed, index) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+          key: index,
+          className: styles.instagramItem
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+          key: index,
+          href: feed.permalink,
+          className: "ig-instagram-link",
+          target: "_blank",
+          rel: "noreferrer"
+        }, feed.media_type === 'IMAGE' || feed.media_type === 'CAROUSEL_ALBUM' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+          className: styles.instagramImg,
+          key: index,
+          src: feed.media_url,
+          alt: "description"
+        }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
+          className: styles.instagramImg,
+          key: index,
+          src: feed.media_url,
+          type: "video/mp4"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+          className: styles.instagramIcon
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+          className: "instagram-count-item"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+          className: "icon"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+          height: "18",
+          viewBox: "0 0 512 512",
+          width: "18"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+          fill: "currentColor",
+          d: "m256 386c-71.683 0-130-58.317-130-130 7.14-172.463 252.886-172.413 260 .001 0 71.682-58.317 129.999-130 129.999zm0-220c-49.626 0-90 40.374-90 90 4.944 119.397 175.074 119.362 180-.001 0-49.625-40.374-89.999-90-89.999zm236 346h-472c-11.046 0-20-8.954-20-20v-472c0-11.046 8.954-20 20-20h472c11.046 0 20 8.954 20 20v472c0 11.046-8.954 20-20 20zm-452-40h432v-432h-432zm372-392c-11.046 0-20 8.954-20 20 0 11.046 8.954 20 20 20 11.046 0 20-8.954 20-20 0-11.046-8.954-20-20-20z"
+        })))))));
+      }));
+    }
+  };
+
+  return InstagramFeed;
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InstagramFeed);
+//# sourceMappingURL=index.modern.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/tr46/index.js":
+/*!************************************!*\
+  !*** ./node_modules/tr46/index.js ***!
+  \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var punycode = __webpack_require__(6850);
-var mappingTable = __webpack_require__(2020);
+var punycode = __webpack_require__(/*! punycode */ "punycode");
+var mappingTable = __webpack_require__(/*! ./lib/mappingTable.json */ "./node_modules/tr46/lib/mappingTable.json");
 
 var PROCESSING_OPTIONS = {
   TRANSITIONAL: 0,
@@ -2885,7 +3138,70 @@ module.exports.PROCESSING_OPTIONS = PROCESSING_OPTIONS;
 
 /***/ }),
 
-/***/ 993:
+/***/ "./src/components/Content/img/profile.png":
+/*!************************************************!*\
+  !*** ./src/components/Content/img/profile.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/profile-c470b452bc742342a7edf8690d187347.png");
+
+/***/ }),
+
+/***/ "./src/components/Footer/img/instagram.png":
+/*!*************************************************!*\
+  !*** ./src/components/Footer/img/instagram.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/instagram-c3d0679865f6768b8afcbb34a893ba1e.png");
+
+/***/ }),
+
+/***/ "./src/components/Footer/img/whatsapp.png":
+/*!************************************************!*\
+  !*** ./src/components/Footer/img/whatsapp.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/whatsapp-464a9a91419d3ccaa35665ff6ad41d7d.png");
+
+/***/ }),
+
+/***/ "./src/components/Header/img/logo-teste.png":
+/*!**************************************************!*\
+  !*** ./src/components/Header/img/logo-teste.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/logo-teste-3f39351821a1b82289bca29fa2fc7dd9.png");
+
+/***/ }),
+
+/***/ "./node_modules/webidl-conversions/lib/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/webidl-conversions/lib/index.js ***!
+  \******************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -3082,12 +3398,15 @@ conversions["RegExp"] = function (V, opts) {
 
 /***/ }),
 
-/***/ 9718:
+/***/ "./node_modules/whatwg-url/lib/URL-impl.js":
+/*!*************************************************!*\
+  !*** ./node_modules/whatwg-url/lib/URL-impl.js ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-const usm = __webpack_require__(5341);
+const usm = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js");
 
 exports.implementation = class URLImpl {
   constructor(constructorArgs) {
@@ -3290,15 +3609,18 @@ exports.implementation = class URLImpl {
 
 /***/ }),
 
-/***/ 4328:
+/***/ "./node_modules/whatwg-url/lib/URL.js":
+/*!********************************************!*\
+  !*** ./node_modules/whatwg-url/lib/URL.js ***!
+  \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-const conversions = __webpack_require__(993);
-const utils = __webpack_require__(9581);
-const Impl = __webpack_require__(9718);
+const conversions = __webpack_require__(/*! webidl-conversions */ "./node_modules/webidl-conversions/lib/index.js");
+const utils = __webpack_require__(/*! ./utils.js */ "./node_modules/whatwg-url/lib/utils.js");
+const Impl = __webpack_require__(/*! .//URL-impl.js */ "./node_modules/whatwg-url/lib/URL-impl.js");
 
 const impl = utils.implSymbol;
 
@@ -3494,32 +3816,38 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7347:
+/***/ "./node_modules/whatwg-url/lib/public-api.js":
+/*!***************************************************!*\
+  !*** ./node_modules/whatwg-url/lib/public-api.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 
-exports.URL = __webpack_require__(4328)["interface"];
-exports.serializeURL = __webpack_require__(5341).serializeURL;
-exports.serializeURLOrigin = __webpack_require__(5341).serializeURLOrigin;
-exports.basicURLParse = __webpack_require__(5341).basicURLParse;
-exports.setTheUsername = __webpack_require__(5341).setTheUsername;
-exports.setThePassword = __webpack_require__(5341).setThePassword;
-exports.serializeHost = __webpack_require__(5341).serializeHost;
-exports.serializeInteger = __webpack_require__(5341).serializeInteger;
-exports.parseURL = __webpack_require__(5341).parseURL;
+exports.URL = __webpack_require__(/*! ./URL */ "./node_modules/whatwg-url/lib/URL.js")["interface"];
+exports.serializeURL = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeURL;
+exports.serializeURLOrigin = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeURLOrigin;
+exports.basicURLParse = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").basicURLParse;
+exports.setTheUsername = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").setTheUsername;
+exports.setThePassword = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").setThePassword;
+exports.serializeHost = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeHost;
+exports.serializeInteger = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeInteger;
+exports.parseURL = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").parseURL;
 
 
 /***/ }),
 
-/***/ 5341:
+/***/ "./node_modules/whatwg-url/lib/url-state-machine.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/whatwg-url/lib/url-state-machine.js ***!
+  \**********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
-const punycode = __webpack_require__(6850);
-const tr46 = __webpack_require__(4742);
+const punycode = __webpack_require__(/*! punycode */ "punycode");
+const tr46 = __webpack_require__(/*! tr46 */ "./node_modules/tr46/index.js");
 
 const specialSchemes = {
   ftp: 21,
@@ -4818,7 +5146,10 @@ module.exports.parseURL = function (input, options) {
 
 /***/ }),
 
-/***/ 9581:
+/***/ "./node_modules/whatwg-url/lib/utils.js":
+/*!**********************************************!*\
+  !*** ./node_modules/whatwg-url/lib/utils.js ***!
+  \**********************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -4846,16 +5177,19 @@ module.exports.implForWrapper = function (wrapper) {
 
 /***/ }),
 
-/***/ 3392:
+/***/ "../../node_modules/encoding/lib/encoding.js":
+/*!***************************************************!*\
+  !*** ../../node_modules/encoding/lib/encoding.js ***!
+  \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var iconvLite = __webpack_require__(3119);
+var iconvLite = __webpack_require__(/*! iconv-lite */ "../../node_modules/encoding/node_modules/iconv-lite/lib/index.js");
 
 // Expose to the world
-module.exports.O = convert;
+module.exports.convert = convert;
 
 /**
  * Convert encoding of an UTF-8 string or a buffer
@@ -4937,12 +5271,15 @@ function checkEncoding(name) {
 
 /***/ }),
 
-/***/ 9628:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-codec.js":
+/*!***********************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-codec.js ***!
+  \***********************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // Multibyte codec. In this scheme, a character is represented by 1 or more bytes.
 // Our codec supports UTF-16 surrogates, extensions for GB18030 and unicode sequences.
@@ -5542,7 +5879,10 @@ function findIdx(table, val) {
 
 /***/ }),
 
-/***/ 4706:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-data.js":
+/*!**********************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-data.js ***!
+  \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -5588,7 +5928,7 @@ module.exports = {
 
     'shiftjis': {
         type: '_dbcs',
-        table: function() { return __webpack_require__(6593) },
+        table: function() { return __webpack_require__(/*! ./tables/shiftjis.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/shiftjis.json") },
         encodeAdd: {'\u00a5': 0x5C, '\u203E': 0x7E},
         encodeSkipVals: [{from: 0xED40, to: 0xF940}],
     },
@@ -5605,7 +5945,7 @@ module.exports = {
 
     'eucjp': {
         type: '_dbcs',
-        table: function() { return __webpack_require__(382) },
+        table: function() { return __webpack_require__(/*! ./tables/eucjp.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/eucjp.json") },
         encodeAdd: {'\u00a5': 0x5C, '\u203E': 0x7E},
     },
 
@@ -5632,13 +5972,13 @@ module.exports = {
     '936': 'cp936',
     'cp936': {
         type: '_dbcs',
-        table: function() { return __webpack_require__(5833) },
+        table: function() { return __webpack_require__(/*! ./tables/cp936.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp936.json") },
     },
 
     // GBK (~22000 chars) is an extension of CP936 that added user-mapped chars and some other.
     'gbk': {
         type: '_dbcs',
-        table: function() { return (__webpack_require__(5833).concat)(__webpack_require__(38)) },
+        table: function() { return (__webpack_require__(/*! ./tables/cp936.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp936.json").concat)(__webpack_require__(/*! ./tables/gbk-added.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gbk-added.json")) },
     },
     'xgbk': 'gbk',
     'isoir58': 'gbk',
@@ -5650,8 +5990,8 @@ module.exports = {
     // http://www.khngai.com/chinese/charmap/tblgbk.php?page=0
     'gb18030': {
         type: '_dbcs',
-        table: function() { return (__webpack_require__(5833).concat)(__webpack_require__(38)) },
-        gb18030: function() { return __webpack_require__(4685) },
+        table: function() { return (__webpack_require__(/*! ./tables/cp936.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp936.json").concat)(__webpack_require__(/*! ./tables/gbk-added.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gbk-added.json")) },
+        gb18030: function() { return __webpack_require__(/*! ./tables/gb18030-ranges.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json") },
         encodeSkipVals: [0x80],
         encodeAdd: {'€': 0xA2E3},
     },
@@ -5666,7 +6006,7 @@ module.exports = {
     '949': 'cp949',
     'cp949': {
         type: '_dbcs',
-        table: function() { return __webpack_require__(6509) },
+        table: function() { return __webpack_require__(/*! ./tables/cp949.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp949.json") },
     },
 
     'cseuckr': 'cp949',
@@ -5707,14 +6047,14 @@ module.exports = {
     '950': 'cp950',
     'cp950': {
         type: '_dbcs',
-        table: function() { return __webpack_require__(9745) },
+        table: function() { return __webpack_require__(/*! ./tables/cp950.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp950.json") },
     },
 
     // Big5 has many variations and is an extension of cp950. We use Encoding Standard's as a consensus.
     'big5': 'big5hkscs',
     'big5hkscs': {
         type: '_dbcs',
-        table: function() { return (__webpack_require__(9745).concat)(__webpack_require__(4439)) },
+        table: function() { return (__webpack_require__(/*! ./tables/cp950.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp950.json").concat)(__webpack_require__(/*! ./tables/big5-added.json */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/big5-added.json")) },
         encodeSkipVals: [0xa2cc],
     },
 
@@ -5726,7 +6066,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5467:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/index.js":
+/*!******************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/index.js ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -5735,15 +6078,15 @@ module.exports = {
 // Update this array if you add/rename/remove files in this directory.
 // We support Browserify by skipping automatic module discovery and requiring modules directly.
 var modules = [
-    __webpack_require__(5093),
-    __webpack_require__(27),
-    __webpack_require__(7485),
-    __webpack_require__(7164),
-    __webpack_require__(9892),
-    __webpack_require__(1712),
-    __webpack_require__(2263),
-    __webpack_require__(9628),
-    __webpack_require__(4706),
+    __webpack_require__(/*! ./internal */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/internal.js"),
+    __webpack_require__(/*! ./utf32 */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf32.js"),
+    __webpack_require__(/*! ./utf16 */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf16.js"),
+    __webpack_require__(/*! ./utf7 */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf7.js"),
+    __webpack_require__(/*! ./sbcs-codec */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-codec.js"),
+    __webpack_require__(/*! ./sbcs-data */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data.js"),
+    __webpack_require__(/*! ./sbcs-data-generated */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data-generated.js"),
+    __webpack_require__(/*! ./dbcs-codec */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-codec.js"),
+    __webpack_require__(/*! ./dbcs-data */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/dbcs-data.js"),
 ];
 
 // Put all encoding/alias/codec definitions to single object and export it.
@@ -5757,12 +6100,15 @@ for (var i = 0; i < modules.length; i++) {
 
 /***/ }),
 
-/***/ 5093:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/internal.js":
+/*!*********************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/internal.js ***!
+  \*********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // Export Node.js internal encodings.
 
@@ -5809,7 +6155,7 @@ InternalCodec.prototype.decoder = InternalDecoder;
 //------------------------------------------------------------------------------
 
 // We use node.js internal decoder. Its signature is the same as ours.
-var StringDecoder = (__webpack_require__(6330).StringDecoder);
+var StringDecoder = (__webpack_require__(/*! string_decoder */ "string_decoder").StringDecoder);
 
 if (!StringDecoder.prototype.end) // Node v0.8 doesn't have this method.
     StringDecoder.prototype.end = function() {};
@@ -5963,12 +6309,15 @@ InternalDecoderCesu8.prototype.end = function() {
 
 /***/ }),
 
-/***/ 9892:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-codec.js":
+/*!***********************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-codec.js ***!
+  \***********************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // Single-byte codec. Needs a 'chars' string parameter that contains 256 or 128 chars that
 // correspond to encoded bytes (if 128 - then lower half is ASCII). 
@@ -6043,7 +6392,10 @@ SBCSDecoder.prototype.end = function() {
 
 /***/ }),
 
-/***/ 2263:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data-generated.js":
+/*!********************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data-generated.js ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -6501,7 +6853,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1712:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data.js":
+/*!**********************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/sbcs-data.js ***!
+  \**********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -6688,12 +7043,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7485:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf16.js":
+/*!******************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/utf16.js ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // Note: UTF16-LE (or UCS2) codec is Node.js native. See encodings/internal.js
 
@@ -6893,13 +7251,16 @@ function detectEncoding(bufs, defaultEncoding) {
 
 /***/ }),
 
-/***/ 27:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf32.js":
+/*!******************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/utf32.js ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // == UTF32-LE/BE codec. ==========================================================
 
@@ -7220,12 +7581,15 @@ function detectEncoding(bufs, defaultEncoding) {
 
 /***/ }),
 
-/***/ 7164:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/utf7.js":
+/*!*****************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/utf7.js ***!
+  \*****************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // UTF-7 codec, according to https://tools.ietf.org/html/rfc2152
 // See also below a UTF-7-IMAP codec, according to http://tools.ietf.org/html/rfc3501#section-5.1.3
@@ -7518,7 +7882,10 @@ Utf7IMAPDecoder.prototype.end = function() {
 
 /***/ }),
 
-/***/ 4691:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/lib/bom-handling.js":
+/*!*******************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/lib/bom-handling.js ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -7578,15 +7945,18 @@ StripBOMWrapper.prototype.end = function() {
 
 /***/ }),
 
-/***/ 3119:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/lib/index.js":
+/*!************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/lib/index.js ***!
+  \************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
-var bomHandling = __webpack_require__(4691),
+var bomHandling = __webpack_require__(/*! ./bom-handling */ "../../node_modules/encoding/node_modules/iconv-lite/lib/bom-handling.js"),
     iconv = module.exports;
 
 // All codecs and aliases are kept here, keyed by encoding name/alias.
@@ -7644,7 +8014,7 @@ iconv.fromEncoding = iconv.decode;
 iconv._codecDataCache = {};
 iconv.getCodec = function getCodec(encoding) {
     if (!iconv.encodings)
-        iconv.encodings = __webpack_require__(5467); // Lazy load all encoding definitions.
+        iconv.encodings = __webpack_require__(/*! ../encodings */ "../../node_modules/encoding/node_modules/iconv-lite/encodings/index.js"); // Lazy load all encoding definitions.
     
     // Canonicalize encoding name: strip all non-alphanumeric chars and appended year.
     var enc = iconv._canonicalizeEncoding(encoding);
@@ -7725,7 +8095,7 @@ iconv.enableStreamingAPI = function enableStreamingAPI(stream_module) {
         return;
 
     // Dependency-inject stream module to create IconvLite stream classes.
-    var streams = __webpack_require__(1126)(stream_module);
+    var streams = __webpack_require__(/*! ./streams */ "../../node_modules/encoding/node_modules/iconv-lite/lib/streams.js")(stream_module);
 
     // Not public API yet, but expose the stream classes.
     iconv.IconvLiteEncoderStream = streams.IconvLiteEncoderStream;
@@ -7746,7 +8116,7 @@ iconv.enableStreamingAPI = function enableStreamingAPI(stream_module) {
 // Enable Streaming API automatically if 'stream' module is available and non-empty (the majority of environments).
 var stream_module;
 try {
-    stream_module = __webpack_require__(8311);
+    stream_module = __webpack_require__(/*! stream */ "stream");
 } catch (e) {}
 
 if (stream_module && stream_module.Transform) {
@@ -7764,13 +8134,16 @@ if (false) {}
 
 /***/ }),
 
-/***/ 1126:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/lib/streams.js":
+/*!**************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/lib/streams.js ***!
+  \**************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Buffer = (__webpack_require__(7654).Buffer);
+var Buffer = (__webpack_require__(/*! safer-buffer */ "../../node_modules/safer-buffer/safer.js").Buffer);
 
 // NOTE: Due to 'stream' module being pretty large (~100Kb, significant in browser environments), 
 // we opt to dependency-inject it instead of creating a hard dependency.
@@ -7881,7 +8254,10 @@ module.exports = function(stream_module) {
 
 /***/ }),
 
-/***/ 7654:
+/***/ "../../node_modules/safer-buffer/safer.js":
+/*!************************************************!*\
+  !*** ../../node_modules/safer-buffer/safer.js ***!
+  \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -7889,7 +8265,7 @@ module.exports = function(stream_module) {
 
 
 
-var buffer = __webpack_require__(871)
+var buffer = __webpack_require__(/*! buffer */ "buffer")
 var Buffer = buffer.Buffer
 
 var safer = {}
@@ -7966,7 +8342,10 @@ module.exports = safer
 
 /***/ }),
 
-/***/ 2020:
+/***/ "./node_modules/tr46/lib/mappingTable.json":
+/*!*************************************************!*\
+  !*** ./node_modules/tr46/lib/mappingTable.json ***!
+  \*************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -7974,7 +8353,10 @@ module.exports = JSON.parse('[[[0,44],"disallowed_STD3_valid"],[[45,46],"valid"]
 
 /***/ }),
 
-/***/ 4439:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/big5-added.json":
+/*!********************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/big5-added.json ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -7982,7 +8364,10 @@ module.exports = JSON.parse('[["8740","䏰䰲䘃䖦䕸𧉧䵷䖳𧲱䳢𧳅㮕�
 
 /***/ }),
 
-/***/ 5833:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp936.json":
+/*!***************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp936.json ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -7990,7 +8375,10 @@ module.exports = JSON.parse('[["0","\\u0000",127,"€"],["8140","丂丄丅丆丏
 
 /***/ }),
 
-/***/ 6509:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp949.json":
+/*!***************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp949.json ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -7998,7 +8386,10 @@ module.exports = JSON.parse('[["0","\\u0000",127],["8141","갂갃갅갆갋",4,"�
 
 /***/ }),
 
-/***/ 9745:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp950.json":
+/*!***************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/cp950.json ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -8006,7 +8397,10 @@ module.exports = JSON.parse('[["0","\\u0000",127],["a140","　，、。．‧；
 
 /***/ }),
 
-/***/ 382:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/eucjp.json":
+/*!***************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/eucjp.json ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -8014,7 +8408,10 @@ module.exports = JSON.parse('[["0","\\u0000",127],["8ea1","｡",62],["a1a1","　
 
 /***/ }),
 
-/***/ 4685:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json":
+/*!************************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json ***!
+  \************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -8022,7 +8419,10 @@ module.exports = JSON.parse('{"uChars":[128,165,169,178,184,216,226,235,238,244,
 
 /***/ }),
 
-/***/ 38:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gbk-added.json":
+/*!*******************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/gbk-added.json ***!
+  \*******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -8030,7 +8430,10 @@ module.exports = JSON.parse('[["a140","",62],["a180","",32],["a240","",
 
 /***/ }),
 
-/***/ 6593:
+/***/ "../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/shiftjis.json":
+/*!******************************************************************************************!*\
+  !*** ../../node_modules/encoding/node_modules/iconv-lite/encodings/tables/shiftjis.json ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
