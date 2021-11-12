@@ -45,6 +45,19 @@ const Content = () => (
                 </div>
               </div>
             </section>
+            <section id="postsContainer">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div id="post1" className=""></div>
+            </div>
+
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div id="post2" className=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
           </div>
         </div>
       </section>
@@ -53,7 +66,7 @@ const Content = () => (
           <div className="row"></div>
         </div>
       </section>
-      <section>
+      {/*<section>
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <DiscussionEmbed
@@ -67,20 +80,8 @@ const Content = () => (
             />
           </div>
         </div>
-      </section>
-      <section id="postsContainer">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div id="post1" className=""></div>
-            </div>
-
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <div id="post2" className=""></div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>*/}
+     
     </main>
   </div>
 );
