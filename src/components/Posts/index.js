@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 
 
 async function fetchPposts(url) {
@@ -15,38 +12,48 @@ const requisicao = fetchPposts(
 );
 
 requisicao.then((response) => {
+  console.log(response);
+
+
   const dadosPost = new Array();
   dadosPost["postId"] = response[0].id;
   dadosPost["postTitle"] = response[0].title.rendered;
   dadosPost["postContent"] = response[0].content.rendered;
 
-  dadosPost["ipostId2"] = response[1].id;
-  dadosPost["postTitle2"] = response[1].title.rendered;
-  dadosPost["postContent2"] = response[1].content.rendered;
+  console.log(typeof dadosPost);
 
-  console.log(dadosPost);
+const blogDados = [];
+//Aqui estou pegando os dados do objeto dadosPost e jogando dentro o arrray blogDados
+blogDados.push(dadosPost);
+
+
+
+response.forEach((i, index, array)=>{
+  //Quando index for 0 mostrar todos index
+  console.log(`${index} : ${i}`)
+  if(array[0] !== [0] ){
+    
+  blogDados.push(response[index].id, response[index].title.rendered, response[index].content.rendered )
+  }
+})
 
 
   document.querySelector(
-    "#post1"
-  ).innerHTML = ` <h1 class="text-center text-uppercase">${dadosPost.postTitle}</h1>
-                                                <p>${dadosPost.postContent}</p>
-  
+    "#posts"
+  ).innerHTML = `
+
+
+        <div class="container>
      
+
+        ${blogDados} 
+       
+
+        </div>
                  
      
                      `;
-  document.querySelector(
-    "#post2"
-  ).innerHTML = ` <h1>${dadosPost.postTitle2}</h1>
-<p>${dadosPost.postContent2}</p>
-
-
-`;
 });
-
-
-
 
 // Fim //
 

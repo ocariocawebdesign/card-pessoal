@@ -3,8 +3,8 @@ import Profile from "../Content/img/profile.png";
 import InstagramFeed from "react-ig-feed";
 import "react-ig-feed/dist/index.css";
 import { DiscussionEmbed } from "disqus-react";
-//import Post from "../Posts/index.js";
-import Blog from '../Blog';
+import Posts from "../Posts/index.js";
+//import Blog from '../Blog';
 //https://www.npmjs.com/package/react-modal-video
 
 const Content = () => (
@@ -50,7 +50,8 @@ const Content = () => (
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <Blog/>
+             
+              <div id="posts" className=""></div>
             </div>
 
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
